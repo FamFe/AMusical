@@ -14,13 +14,13 @@
 <link href="plugins/colorbox/colorbox.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" type="text/css" href="styles/blog_styles.css">
  
-<script>
+<!--<script>
 function mostrar(enla) {
   obj = document.getElementById('oculto');
   obj.style.visibility = (obj.style.visibility == 'hidden') ? 'visible' : 'hidden';
   enla.innerHTML = (enla.innerHTML == '-') ? 'Ver mas' : '-';
 }
-</script>
+</script>-->
 
 
 </head>
@@ -31,11 +31,35 @@ function mostrar(enla) {
 </style>
 
 <style>
-	#columnas{
-   column-count:4;
-   column-gap:20px;
-   column-rule:4px dotted gray;
+	*  {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
+
+html {
+    font-size: 62.5%;
+    line-height: 1;
+}
+
+p {
+    font-size: 15px;
+    font-size: 1.5rem;    
+    line-height: 1.333333334;
+    margin-bottom: 20px;
+    margin-bottom: 2rem;
+    text-align: justify;
+}
+
+.three-columns {
+    
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+}
+
+
+
 </style>
 <body>
 
@@ -145,18 +169,24 @@ function mostrar(enla) {
 <br>
 
 
+            
+                
 
 			
 			<div id="directory-cont">
+				
 				<ul id="directory">
-					<div id="columnas">
+					<div class="three-columns">
+						<p>
 					<li>
+						
 						<div>
 							<a href="https://www.youtube.com/watch?v=lEVCQK0WR3k" target="_blank" class="name" >Agnus Dei</a>
 							<p>Marcos Barrientos</p>
 						</div>
 					</li>
-					
+				</p>
+					<p>
 					<li>
 						
 
@@ -165,24 +195,25 @@ function mostrar(enla) {
 							<p>Marcos Brunet</p>
 						</div>
 					</li>
-					</li>
+					</p>
+
+					<p>
 					<li>
 						<div>
 							<a href="https://www.youtube.com/watch?v=VzKpPpkFMnE" target="_blank" class="name" >Al Rey </a>
 							<p>Marcos Witt</p>
 						</div>
 					</li>
-
-
-
-					<li>
+				</p>
+			<p>
+				<li>
 						<div>
 							<a href="https://www.youtube.com/watch?v=lFhydJ_FRMo" target="_blank" class="name" >Aqui Estoy</a>
 							<p>Jaime Murrell</p>
 						</div>
 					</li>
-
-					
+                   </p>
+					<p>
 
 					<li>
 						<div>
@@ -190,41 +221,214 @@ function mostrar(enla) {
 							<p>Miel San Marcos</p>
 						</div>
 					</li>
+				</p>
+				<p>
 					<li>
 						<div>
 							<a href="https://www.youtube.com/watch?v=8FNTUOSi-YE" target="_blank" class="name" >Bienvenido espiritu santo</a>
 							<p>Miel San Marcos</p>
 						</div>
-					</li>
 
-					<li>
+					</li>
+					</p>
+					<p>
+						<li>
 						
 						<div>
-							<a href="https://www.youtube.com/watch?v=9VsASJEY_Lk" target="_blank" class="name" align="align-items-center" >Creo en ti</a>
+							<a href="https://www.youtube.com/watch?v=9VsASJEY_Lk" target="_blank" class="name" " >Creo en ti</a>
 							<p>Julio Melgar</p>
 						</div>
 					</li>
-				</div>
-					<a href="#" onclick="mostrar(this); return false" />Ver mas</a>
-<div id="oculto" style="visibility:hidden">
-<li>
+				</p>
+				<p>
+					<li>
 						
+
+						<div>
+							<a href="https://www.youtube.com/watch?v=riif7lFXqpQ" target="_blank" class="name" >Cristo eres Rey</a>
+							<p>Marcos Barrientos</p>
+						</div>
+					</li>
+				</p>
+				<p>
+					<li>
+						
+						<div>
+							<a href="https://www.youtube.com/watch?v=Ghq_cQ1EQHo" target="_blank" class="name" >Cuan grande es Dios</a>
+							<p>Espiritu y En Verdad</p>
+						</div>
+					</li>
+				</p>
+				<p>
+					<li>
+						
+						<div>
+							<a href="https://www.youtube.com/watch?v=qXNCajKhRyw" target="_blank" class="name" >Cuan grande es El</a>
+							<p>Espiritu y En Verdad</p>
+						</div>
+					</li>
+				</p>
+				<p>
+					<li>
+						
+						<div>
+							<a href="https://www.youtube.com/watch?v=KqcCj3501Ww" target="_blank" class="name" >De los montes</a>
+							<p>Marcos Barrientos</p>
+						</div>
+					</li>
+				</p>
+				<p>
+					<li>
+						
+
+						<div>
+							<a href="https://www.youtube.com/watch?v=r1nbrC3pMig" target="_blank" class="name" >Digno Eres Señor</a>
+							<p>Marcos Barrientos</p>
+						</div>
+					</li>
+				</p>
+				<p>
+					<li>
+						
+						<div>
+							<a href="https://www.youtube.com/watch?v=E80d2go3yBM" target="_blank" class="name" >Digno y Santo</a>
+							<p>Kari Jobe</p>
+						</div>
+					</li>
+				</p>
+				<p>
+					<li>
+						
+
+						<div>
+							<a href="https://www.youtube.com/watch?v=qm__NPeZzEM" target="_blank" class="name" >El Himno</a>
+							<p>Planetshakers</p>
+						</div>
+					</li>
+				</p>
+				<p>
+					<li>
+						
+						<div>
+							<a href="https://www.youtube.com/watch?v=GzOKWkWPO0c" target="_blank" class="name" >En la cruz</a>
+							<p>Hillsong</p>
+						</div>
+					</li>
+				</p>
+
+					<!--<a href="#" onclick="mostrar(this); return false" />Ver mas</a>
+<div id="oculto" style="visibility:hidden"> -->
+                       <p>
+                       <li>
 						<div>
 							<a href="https://www.youtube.com/watch?v=ZjRFUoXD2oI" target="_blank" class="name" >En el nombre de jesus</a>
 							<p>Darlene Schech</p>
 						</div>
 					</li>
-</div>
-					</div>
-					
-				</div>
-
+				</p>
+				<p>
+					<li>
+						
+						<div>
+							<a href="https://www.youtube.com/watch?v=Nfy51JPvbRM" target="_blank" class="name" >En los montes en los valles</a>
+							<p>Marcos Witt</p>
+						</div>
+					</li>
+				</p>
+				<p>
+					<li>
+						
+						<div>
+							<a href="https://www.youtube.com/watch?v=Mqk4Wg-ZDsE" target="_blank" class="name" >Eres Dios</a>
+							<p>Novidade de Vida</p>
+						</div>
+					</li>
+				</p>
+				<p>
+					<li>
+						
+						<div>
+							<a href="https://www.youtube.com/watch?v=E-W39HA2jS4" target="_blank" class="name" >Eres rey de los cielos</a>
+							<p>Marcos Barrientos</p>
+						</div>
+					</li>
+				</p>
+				<p>
+					<li>
+						
+						<div>
+							<a href="https://www.youtube.com/watch?v=i9vhkyLZG2s" target="_blank" class="name" >Eres Todo Poderoso</a>
+							<p>Danilo Montero</p>
+						</div>
+					</li>
+				</p>
+				<p>
+					<li>
+						
+						<div>
+							<a href="https://www.youtube.com/watch?v=2xgTxL5XBG8" target="_blank" class="name" >Es hora de adorarle</a>
+							<p>Marcos Barrientos</p>
+						</div>
+					</li>
+				</p>
+				<p>
+					<li>
+						<div>
+							<a href="https://www.youtube.com/watch?v=I5MHlK1Vn5w" target="_blank" class="name" >Este es mi deseo</a>
+							<p>Danilo Montero</p>
+						</div>
+					</li>
+				</p>
+				<p>
+					<li>
+						
+						<div>
+							<a href="https://www.youtube.com/watch?v=McG8B7Wguyg" target="_blank" class="name" >Generacion que Danza</a>
+							<p>Espiritu y En Verdad</p>
+						</div>
+					</li>
+				</p>
+				<p>
+					<li>
+						
+						<div>
+							<a href="https://www.youtube.com/watch?v=YJoMGW7QAeo" target="_blank" class="name" >Glorificate</a>
+							<p>Miel San Marcos</p>
+						</div>
+					</li>
+				</p>
+				<p>
+					<li>
+						
+						<div>
+							<a href="https://www.youtube.com/watch?v=jRMwTolhQ64" target="_blank" class="name" >Glorioso</a>
+							<p>Bj Putnam</p>
+						</div>
+					</li>
+				</p>
+				<p>
+					<li>
+						
+						<div>
+							<a href="https://www.youtube.com/watch?v=iJNnR83Ovts" target="_blank" class="name" >Grande Y Fuerte</a>
+							<p>Miel San Marcos</p>
+						</div>
+					</li>
+				</p>
+				<p>
+					<li>
+						
+						<div>
+							<a href="https://www.youtube.com/watch?v=_M3ZBHRMu-w" target="_blank" class="name" >Haz Llover</a>
+							<p>Claudio Freidzon</p>
+						</div>
+					</li>
+				</p>
 			</div>
 
-
-			
-
-			
+					
+					
+				
 
 	<!-- Footer -->
 

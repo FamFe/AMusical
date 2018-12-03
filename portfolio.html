@@ -14,7 +14,13 @@
 <link href="plugins/colorbox/colorbox.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" type="text/css" href="styles/blog_styles.css">
  
-
+<script>
+function mostrar(enla) {
+  obj = document.getElementById('oculto');
+  obj.style.visibility = (obj.style.visibility == 'hidden') ? 'visible' : 'hidden';
+  enla.innerHTML = (enla.innerHTML == '-') ? 'Ver mas' : '-';
+}
+</script>
 
 
 
@@ -122,14 +128,51 @@
 					</div>
 				</div>
 			</ul>
+		</div>
+			<h1 {margin:0;}>Buscar</h1>
+				<input id="search-box" type="text" name="search">
+				</div>
+
+			</div>
+<br>
+			
+			<div id="directory-cont">
+				<ul id="directory">
+					<li>
+						<div>
+							<a href="https://www.youtube.com/watch?v=OhQWMof33ZI" target="_blank" class="name" >Avivanos</a>
+							<p>Miel San Marcos</p>
+						</div>
+					</li>
+					
+					<li>
+						
+
+						<div>
+							<a href="https://www.youtube.com/watch?v=qm__NPeZzEM" target="_blank" class="name" >El Himno</a>
+							<p>Planetshakers</p>
+						</div>
+					</li>
+					</li>
+					<a href="#" onclick="mostrar(this); return false" />Ver mas</a>
+<div id="oculto" style="visibility:hidden">
+<li>
+						
+						<div>
+							<a href="https://www.youtube.com/watch?v=ZjRFUoXD2oI" target="_blank" class="name" >En el nombre de jesus</a>
+							<p>Darlene Schech</p>
+						</div>
+					</li>
+</div>
 					</div>
 					
 				</div>
 
 			</div>
-<br>
+
 
 			
+
 			
 
 	<!-- Footer -->
